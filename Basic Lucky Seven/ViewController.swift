@@ -37,7 +37,6 @@ class ViewController: UIViewController {
 
     @IBAction func spinButton(sender: UIButton) {
         
-        var sevenCount = 0
         firstNumberLabel.hidden = false
         secondNumberLabel.hidden = false
         thirdNumberLabel.hidden = false
@@ -46,30 +45,14 @@ class ViewController: UIViewController {
         let secondNumber = Int(arc4random_uniform(UInt32(8)))
         let thirdNumber = Int(arc4random_uniform(UInt32(8)))
         
-        if firstNumber == 7{
-        sevenCount += 1
-        }
-        else {
-        }
-        
-        if secondNumber == 7{
-        sevenCount += 1
-        }
-        else{
-        }
-        
-        if thirdNumber == 7{
-        sevenCount += 1
-        }
-        else{
-        }
-        
-        if sevenCount == 3 {
+     
+        if firstNumber == 7 || secondNumber == 7 || thirdNumber == 7 {
         wins += 1
         }
-        else{
+        else {
         losses += 1
         }
+   
         
         total += 1
         
