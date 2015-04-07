@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>353D9BDE-6B25-42FF-821F-989F2972EE3F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Basic Lucky Seven</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CB807DA5E0715810C6B6A603ABF92DA71AB92BEB</key>
+		<string>https://github.com/henrytheunicorn/Basic-Lucky-Seven</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Basic Lucky Seven.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CB807DA5E0715810C6B6A603ABF92DA71AB92BEB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/henrytheunicorn/Basic-Lucky-Seven</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CB807DA5E0715810C6B6A603ABF92DA71AB92BEB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB807DA5E0715810C6B6A603ABF92DA71AB92BEB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Basic%20Lucky%20Seven</string>
+		</dict>
+	</array>
+</dict>
+</plist>
