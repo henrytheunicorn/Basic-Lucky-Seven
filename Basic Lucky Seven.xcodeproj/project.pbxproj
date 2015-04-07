@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA38E76A1AD369E7006BD6DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38E7691AD369E7006BD6DE /* AppDelegate.swift */; };
+		BA38E76C1AD369E7006BD6DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38E76B1AD369E7006BD6DE /* ViewController.swift */; };
+		BA38E76F1AD369E7006BD6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA38E76D1AD369E7006BD6DE /* Main.storyboard */; };
+		BA38E7711AD369E7006BD6DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA38E7701AD369E7006BD6DE /* Images.xcassets */; };
+		BA38E7741AD369E7006BD6DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA38E7721AD369E7006BD6DE /* LaunchScreen.xib */; };
+		BA38E7801AD369E8006BD6DE /* Basic_Lucky_SevenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA38E77F1AD369E8006BD6DE /* Basic_Lucky_SevenTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA38E77A1AD369E8006BD6DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA38E75C1AD369E7006BD6DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA38E7631AD369E7006BD6DE;
+			remoteInfo = "Basic Lucky Seven";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA38E7641AD369E7006BD6DE /* Basic Lucky Seven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic Lucky Seven.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA38E7681AD369E7006BD6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA38E7691AD369E7006BD6DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA38E76B1AD369E7006BD6DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA38E76E1AD369E7006BD6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA38E7701AD369E7006BD6DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA38E7731AD369E7006BD6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BA38E7791AD369E8006BD6DE /* Basic Lucky SevenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basic Lucky SevenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA38E77E1AD369E8006BD6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA38E77F1AD369E8006BD6DE /* Basic_Lucky_SevenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_Lucky_SevenTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA38E7611AD369E7006BD6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA38E7761AD369E8006BD6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA38E75B1AD369E7006BD6DE = {
+			isa = PBXGroup;
+			children = (
+				BA38E7661AD369E7006BD6DE /* Basic Lucky Seven */,
+				BA38E77C1AD369E8006BD6DE /* Basic Lucky SevenTests */,
+				BA38E7651AD369E7006BD6DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA38E7651AD369E7006BD6DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA38E7641AD369E7006BD6DE /* Basic Lucky Seven.app */,
+				BA38E7791AD369E8006BD6DE /* Basic Lucky SevenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA38E7661AD369E7006BD6DE /* Basic Lucky Seven */ = {
+			isa = PBXGroup;
+			children = (
+				BA38E7691AD369E7006BD6DE /* AppDelegate.swift */,
+				BA38E76B1AD369E7006BD6DE /* ViewController.swift */,
+				BA38E76D1AD369E7006BD6DE /* Main.storyboard */,
+				BA38E7701AD369E7006BD6DE /* Images.xcassets */,
+				BA38E7721AD369E7006BD6DE /* LaunchScreen.xib */,
+				BA38E7671AD369E7006BD6DE /* Supporting Files */,
+			);
+			path = "Basic Lucky Seven";
+			sourceTree = "<group>";
+		};
+		BA38E7671AD369E7006BD6DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA38E7681AD369E7006BD6DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA38E77C1AD369E8006BD6DE /* Basic Lucky SevenTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA38E77F1AD369E8006BD6DE /* Basic_Lucky_SevenTests.swift */,
+				BA38E77D1AD369E8006BD6DE /* Supporting Files */,
+			);
+			path = "Basic Lucky SevenTests";
+			sourceTree = "<group>";
+		};
+		BA38E77D1AD369E8006BD6DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA38E77E1AD369E8006BD6DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA38E7631AD369E7006BD6DE /* Basic Lucky Seven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA38E7831AD369E8006BD6DE /* Build configuration list for PBXNativeTarget "Basic Lucky Seven" */;
+			buildPhases = (
+				BA38E7601AD369E7006BD6DE /* Sources */,
+				BA38E7611AD369E7006BD6DE /* Frameworks */,
+				BA38E7621AD369E7006BD6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basic Lucky Seven";
+			productName = "Basic Lucky Seven";
+			productReference = BA38E7641AD369E7006BD6DE /* Basic Lucky Seven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA38E7781AD369E8006BD6DE /* Basic Lucky SevenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA38E7861AD369E8006BD6DE /* Build configuration list for PBXNativeTarget "Basic Lucky SevenTests" */;
+			buildPhases = (
+				BA38E7751AD369E8006BD6DE /* Sources */,
+				BA38E7761AD369E8006BD6DE /* Frameworks */,
+				BA38E7771AD369E8006BD6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA38E77B1AD369E8006BD6DE /* PBXTargetDependency */,
+			);
+			name = "Basic Lucky SevenTests";
+			productName = "Basic Lucky SevenTests";
+			productReference = BA38E7791AD369E8006BD6DE /* Basic Lucky SevenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA38E75C1AD369E7006BD6DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Henry Pham";
+				TargetAttributes = {
+					BA38E7631AD369E7006BD6DE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BA38E7781AD369E8006BD6DE = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BA38E7631AD369E7006BD6DE;
+					};
+				};
+			};
+			buildConfigurationList = BA38E75F1AD369E7006BD6DE /* Build configuration list for PBXProject "Basic Lucky Seven" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA38E75B1AD369E7006BD6DE;
+			productRefGroup = BA38E7651AD369E7006BD6DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA38E7631AD369E7006BD6DE /* Basic Lucky Seven */,
+				BA38E7781AD369E8006BD6DE /* Basic Lucky SevenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA38E7621AD369E7006BD6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA38E76F1AD369E7006BD6DE /* Main.storyboard in Resources */,
+				BA38E7741AD369E7006BD6DE /* LaunchScreen.xib in Resources */,
+				BA38E7711AD369E7006BD6DE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA38E7771AD369E8006BD6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA38E7601AD369E7006BD6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA38E76C1AD369E7006BD6DE /* ViewController.swift in Sources */,
+				BA38E76A1AD369E7006BD6DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA38E7751AD369E8006BD6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA38E7801AD369E8006BD6DE /* Basic_Lucky_SevenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA38E77B1AD369E8006BD6DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA38E7631AD369E7006BD6DE /* Basic Lucky Seven */;
+			targetProxy = BA38E77A1AD369E8006BD6DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA38E76D1AD369E7006BD6DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA38E76E1AD369E7006BD6DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA38E7721AD369E7006BD6DE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA38E7731AD369E7006BD6DE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA38E7811AD369E8006BD6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA38E7821AD369E8006BD6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA38E7841AD369E8006BD6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Basic Lucky Seven/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA38E7851AD369E8006BD6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Basic Lucky Seven/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA38E7871AD369E8006BD6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Basic Lucky SevenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basic Lucky Seven.app/Basic Lucky Seven";
+			};
+			name = Debug;
+		};
+		BA38E7881AD369E8006BD6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Basic Lucky SevenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basic Lucky Seven.app/Basic Lucky Seven";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA38E75F1AD369E7006BD6DE /* Build configuration list for PBXProject "Basic Lucky Seven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA38E7811AD369E8006BD6DE /* Debug */,
+				BA38E7821AD369E8006BD6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA38E7831AD369E8006BD6DE /* Build configuration list for PBXNativeTarget "Basic Lucky Seven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA38E7841AD369E8006BD6DE /* Debug */,
+				BA38E7851AD369E8006BD6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA38E7861AD369E8006BD6DE /* Build configuration list for PBXNativeTarget "Basic Lucky SevenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA38E7871AD369E8006BD6DE /* Debug */,
+				BA38E7881AD369E8006BD6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA38E75C1AD369E7006BD6DE /* Project object */;
+}
